@@ -8,7 +8,7 @@ from employee.forms import EmployeeForm
 # Create your views here.
 class Home(View):
     def get(self, request):
-        return render(request,'home.html')
+        return render(request,'index.html')
 
 class Addemployee(View):
     def get(self, request):
